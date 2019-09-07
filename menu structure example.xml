@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--example of a menu structure in xml -->
+<menu>
+  <!-- This is assumed to be a top level menu
+  which is used in some dynamic code
+  dd is used for dropdown header,
+  x for exit is always included at last and should be required
+  ... each of the following im tags is an item in the menu
+-->
+  <dd top="File">
+    <im>New</im>
+    <im>Save</im>
+    <im>Save As</im>
+  </dd>
+  
+  <x>Exit</x>
+</menu>
